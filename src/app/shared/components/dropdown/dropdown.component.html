@@ -1,0 +1,12 @@
+<ng-select
+  [items]="cars" 
+  bindLabel="name" 
+  bindValue="id"
+  [(ngModel)]="value"
+  [clearable]="clear">
+</ng-select>
+
+<br>
+VALUE: <p>{{ value }}</p>
+<br>
+<button (click)="onClear()">clear {{ _onOff }}</button>

@@ -1,0 +1,15 @@
+<h1>
+  Sign Up Reactive Forms
+</h1>
+<form [formGroup]="parentForm" (ngSubmit)="onSubmit()">
+
+  <label for="fullname">Full name
+    <input type="text" name="fullname" id="fulname" formControlName="fullname">
+  </label><br>
+  <app-form [parentForm]="parentForm"></app-form>
+  <br><br>
+  <app-form-optional [parentForm]="parentForm"></app-form-optional>
+<br>
+  <button type="submit">Sign Up</button>
+
+</form>
