@@ -15,7 +15,7 @@ export class DropdownComponent {
 ];
 
   public value: any;
-  public clear: boolean = true;
+  public clear: boolean = false;
 
   public onClear() {
     this.clear = !this.clear;

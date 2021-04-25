@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://slowwly.robertomurray.co.uk/delay/10000/url/https://604bf3e8ee7cb900176a2bc1.mockapi.io/api",
+    "secure": false,
+    "pathRewrite": {
+    "^/api": ""
+  },
+    "changeOrigin": true
+  }
+}

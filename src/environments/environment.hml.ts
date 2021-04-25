@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
-  version: 'dev',
-  httpCancelTimeout: 60000,
+  version: 'hml',
+  httpCancelTimeout: 20000,
 };

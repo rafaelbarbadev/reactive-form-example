@@ -3,8 +3,20 @@
   bindLabel="name" 
   bindValue="id"
   [(ngModel)]="value"
-  [clearable]="clear">
+  [clearable]="true">
 </ng-select>
+
+<br>
+
+<p>CSS CLEARABLE</p>
+<div class="portal-content">
+  <ng-select
+  [items]="cars" 
+  bindLabel="name" 
+  bindValue="id"
+  [(ngModel)]="value">
+</ng-select>
+</div>
 
 <br>
 VALUE: <p>{{ value }}</p>

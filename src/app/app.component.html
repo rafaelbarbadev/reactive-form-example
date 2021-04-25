@@ -1,3 +1,16 @@
 <router-outlet></router-outlet>
-<!-- <app-dropdown></app-dropdown> <br>-->
-<app-signup></app-signup>
+<!-- <app-dropdown></app-dropdown> <br> -->
+<!-- <app-signup></app-signup> -->
+
+
+<div class="mock-lista">
+  <div class="mock-item" *ngFor="let item of list">
+    <p>{{ item.nome }}</p>
+    <p>{{ item.email }}</p>
+  </div>
+</div>
+
+<p>
+  versão: {{ env }}
+</p>
+<button (click)="click()">click me!</button>
